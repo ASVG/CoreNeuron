@@ -142,7 +142,7 @@ inline void* phase_wrapper_w(NrnThread* nt) {
             setup_ThreadData(*nt);
         }
     }
-    return NULL;
+    return nullptr;
 }
 
 /// Specific phase reading executed by threads.
